@@ -55,7 +55,7 @@ The audit log records: criteria version, prompt and model version, raw AI output
 
 ## Sample result
 
-- **Ranked:** A (98), E (86), C (77)
+- **Ranked:** A (98), E (81), C (70)
 - **Flagged:** D. It contains an instruction aimed at automated reviewers and gives no completion timeline, while the project must finish within 16 weeks.
 - **Ineligible:** B. The bidder does not hold an electrical licence itself; the work depends on a subcontractor to be confirmed after award.
 
