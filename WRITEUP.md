@@ -14,7 +14,7 @@ The line is: **AI reads and describes, code decides.** Decisions must be repeata
 - Extracted facts are saved. Re-ranking uses the saved facts, so the same proposals always give the same result. If the AI is run again, the new output is compared with the saved one and any difference is flagged.
 - Scoring is a fixed formula. The best bid on each criterion gets full points and others get a proportional share:
   - Experience (30): 30 × installs ÷ highest installs
-  - Price (25): 25 × lowest price ÷ this price
+  - Price (25): 25 × (budget ceiling - this price) ÷ (budget ceiling - lowest eligible price)
   - Timeline (15): 15 × fewest weeks ÷ these weeks
   - Warranty (15): 15 × workmanship years ÷ longest workmanship years
   - Team (15): 3.75 each for named lead, crew, safety plan, monitoring plan
